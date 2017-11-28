@@ -13,7 +13,7 @@ Widget::Widget(QWidget *parent) :
    // mSystemTrayIcon =new QSystemTrayIcon(this);
 
     connect(ui->pushButton,SIGNAL(clicked()), this, SLOT(display()));
-    setWindowTitle(tr("Intern HW"));
+    setWindowTitle(tr("Intern HW Başlığı"));
 }
 
 Widget::~Widget()
